@@ -1,19 +1,24 @@
 nav a {
     text-decoration: none;
-    color: white ;
+    color: black ;
     margin-right: 20px;
     padding: 10px;
     
     }
     nav a:hover{
-      background-color: gray;
+    text-decoration: none;
+    background-color: rgb(141, 192, 141) ;
+    color : black ;
+    transition: .5s;
+    box-shadow: 3px 3px 10px rgb(70, 228, 8);
+    padding: 7px 25px;
     }
     .header{
         text-align: center;
     }
     .header nav{
-             background-color: black;
-             line-height: 40px;
+            
+             line-height: 20px;
              font-size: 20px;
     
     }
